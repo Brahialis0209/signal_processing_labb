@@ -1,6 +1,8 @@
 from glob import glob
 import cv2
 import os
+import sys  
+sys.path.append('../')
 
 from src.alg.start_work import start_contours_algorithm
 
